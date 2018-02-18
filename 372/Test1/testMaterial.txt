@@ -1,0 +1,14 @@
+front and back notes
+timer stuff
+sfr
+port write pin read pin ddr 1 output, 0 input
+a little basic git
+commands: clone commit cvs dcvs 
+one line code set bit/unset bit, toggle bit, bit shifting, making set and unset bits all at once
+lab2 function take bits and set without modifing top ones
+ISR's
+comparison vector syntax _vect? PCINT triggers on rising and falling edges
+don't memorize datasheet, pull up resistor--solves problem of floating pin 
+shmidt trigger-- solves problem of noise
+stuff on LCD-- look at timing diagram(voltage over time for pins and see which command was sent)
+16 bit timer concepts of PWM duty cycle, tTotal, calc in OCR for 16 bit timer, prescaler

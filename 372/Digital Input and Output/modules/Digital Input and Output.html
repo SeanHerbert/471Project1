@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Version Control With Git Overview</title>
+	
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.4/ua-bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/1ca10f496c.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+     <!-- Latest icon font stylesheet -->
+	<link rel="stylesheet" href="https://cdn.uadigital.arizona.edu/lib/ua-brand-icons/latest/ua-brand-icons.css">
+	<!-- Compiled and minified UA Bootstrap CSS, icon font not included -->
+	<link rel="stylesheet" href="https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.5/ua-bootstrap.min.css">
+	<!--Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Custom Css-->
+	<link href="/shared/UA-Online/WildcatDesignSet/templates/../css/wildcat_coursefile_style.css" type="text/css" rel="stylesheet">
+	<link href="/content/enforced/627045-Onlinev8_17_75/WildcatDesignSet/css/wildcat_coursefile_bg_style.css" type="text/css" rel="stylesheet">   
+
+</head>
+
+<body id="wildcat-body">
+<div class="container-fluid wildcat-comp">
+<h1>Digital Input and Output</h1>
+<!--------------------#~ Component: Question ~#--------------------------------->
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://arizona.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=a4ea6d3b-0adf-4e4b-b987-a85d00f6c9ec&amp;v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" gesture="media" allowfullscreen=""></iframe></div>
+<!--End of Component: Question-->
+<aside id="objectivesList">
+<h2>Module Objectives</h2>
+<p>If you successfully complete this module, you will be able to:</p>
+<ol style="padding-left: 3em;">
+<li><strong>(Course Objective A) </strong>Memorize&nbsp;the purpose for PORT, PIN, and DDR special function registers&nbsp;in digital I/O</li>
+<li><strong>(Course Objective A) </strong>Construct&nbsp;code for manipulating and retrieving single bits using SFR macros based on provided register maps</li>
+<li><strong>(Course Objective B)</strong> Using digital I/O,<strong>&nbsp;</strong>develop a program to manipulate several LEDs and a switch&nbsp;</li>
+</ol>
+</aside>
+<h2>Activity List</h2>
+<table class="table-dark table-striped bg-azurite" style="width: 832px;">
+<thead>
+<tr>
+<th style="width: 166px;">Due date</th>
+<th style="width: 388.609375px;">Activity</th>
+<th style="width: 165.390625px;">Time on task</th>
+<th style="width: 107px;">Objectives</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 166px;">Thu&nbsp;1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=574405fb-3d33-4c4d-8af7-a85a00168dcc" target="_blank" rel="noopener noreferrer">Special Function Registers</a></td>
+<td style="width: 165.390625px;">5&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=466fd958-d6a4-44d4-b351-a85a00168cd9" target="_blank" rel="noopener noreferrer">Number Systems</a></td>
+<td style="width: 165.390625px;">15&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;">
+<p><i class="fa fa-book" aria-hidden="true"></i> <a href="../datasheet/ATmega2560%20Datasheet.pdf" target="_self">Chapter&nbsp;13.0-13.2.4</a></p>
+</td>
+<td style="width: 165.390625px;">30&nbsp;min</td>
+<td style="width: 107px;">2</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=053f16cb-3fd7-4610-908b-a85a00168c15" target="_blank" rel="noopener noreferrer">Bit Operations</a></td>
+<td style="width: 165.390625px;">15&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4548cf27-7a81-4a62-ad4c-a85a00168adf" target="_blank" rel="noopener noreferrer">SFR Macros</a></td>
+<td style="width: 165.390625px;">10&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b10f89a1-ed99-41b2-906d-a85a00168942" target="_blank" rel="noopener noreferrer">Setting Bits</a></td>
+<td style="width: 165.390625px;">10 min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cb0a8ea5-1695-4f86-a3fd-a85a001688a0" target="_blank" rel="noopener noreferrer">Typical Program Structure</a></td>
+<td style="width: 165.390625px;">10&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0bc388e0-9bc7-4bf5-9c30-a85a00168a3c" target="_blank" rel="noopener noreferrer">Digital Output Example</a></td>
+<td style="width: 165.390625px;">10&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu 1/18</td>
+<td style="width: 388.609375px;"><i class="fa fa-file-powerpoint-o" aria-hidden="true">&nbsp;<b>&nbsp;</b></i>Digital Output<br /> <i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp;Digital Output</td>
+<td style="width: 165.390625px;">75 min</td>
+<td style="width: 107px;">2, 3</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue&nbsp;1/23<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b03f4b56-d07c-4a73-b570-a85a001687a1" target="_blank" rel="noopener noreferrer">Getting Bits</a></td>
+<td style="width: 165.390625px;">10&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue 1/23<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d8a404f-84df-4799-a393-a85a00168700" target="_blank" rel="noopener noreferrer">Switches and Pull-Up Resistors</a></td>
+<td style="width: 165.390625px;">10 min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue 1/23<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86211aa1-5ef8-49c1-aa92-a85a00168635" target="_blank" rel="noopener noreferrer">Polling</a></td>
+<td style="width: 165.390625px;">5&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue 1/23<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=365b6488-1801-41bd-8473-a85a0016859d" target="_blank" rel="noopener noreferrer">Digital Input Example</a></td>
+<td style="width: 165.390625px;">15&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue 1/23<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e8b7bc63-e3d4-45c3-88d7-a85a00166ada" target="_blank" rel="noopener noreferrer">Serial Console and Debugging</a></td>
+<td style="width: 165.390625px;">5&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue 1/23<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ddc9fc04-ca11-404a-aeba-a85a0019c845" target="_blank" rel="noopener noreferrer">Schmitt Triggers and Debouncing</a></td>
+<td style="width: 165.390625px;">10&nbsp;min</td>
+<td style="width: 107px;">1</td>
+</tr>
+<tr>
+<td style="width: 166px;">Tue 1/23</td>
+<td style="width: 388.609375px;"><i class="fa fa-file-powerpoint-o" aria-hidden="true">&nbsp;<b>&nbsp;</b></i>Digital Input<br /> <i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp;Digital Input</td>
+<td style="width: 165.390625px;">75 min</td>
+<td style="width: 107px;">2, 3</td>
+</tr>
+<tr>
+<td style="width: 166px;">Thu&nbsp;1/25<br /><strong>(before class)</strong></td>
+<td style="width: 388.609375px;"><i class="fa fa-check-square" aria-hidden="true"></i> <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=641953&amp;type=quiz&amp;rcode=Arizona-3147249" target="_self">SFRs and Pin I/O</a></td>
+<td style="width: 165.390625px;">30 min</td>
+<td style="width: 107px;">1, 2, 3</td>
+</tr>
+<tr>
+<td style="width: 166px;">
+<p>Depends on lab <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+</td>
+<td style="width: 388.609375px;">
+<p><i class="fa fa-flask" aria-hidden="true"></i> <a href="https://git.engr.arizona.edu/ece372a/lab1" target="_blank" rel="noopener noreferrer">Lab 1<br /></a>Friday 1/26 <strong>(Thursday Lab)</strong><br />Monday 1/29 <strong>(Friday Lab)</strong><br />Tuesday 1/30 <strong>(Monday Lab)</strong></p>
+</td>
+<td style="width: 165.390625px;">180 min</td>
+<td style="width: 107px;">1, 2, 3</td>
+</tr>
+</tbody>
+</table>
+<h2>Additional Resources</h2>
+<ul>
+<li><a href="../datasheet/ATmega2560%20Datasheet.pdf" target="_self">ATMega2560 Datasheet</a></li>
+<li><a href="../datasheet/Arduino%20Mega2560%20Schematic.pdf" target="_self">Arduino Mega2560 Schematic</a></li>
+</ul>
+</div>
+</body>
+</html>
